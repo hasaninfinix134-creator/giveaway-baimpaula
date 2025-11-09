@@ -1,0 +1,117 @@
+body{
+	background-size: 100%;
+	font-family: sans-serif;
+}
+
+img{
+	border-radius: 50%;
+	border: 0px solid #fff;
+	width: 180px;
+	height: 180px;
+}
+
+h6{
+	color: red;
+	font-size: 10pt;
+	margin-top: 5px;
+	margin-left: 160px;
+}
+
+h5{
+	color: gray;
+	margin-top: 10px;
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+h4{
+	color: white;
+	text-align: center;
+}
+
+h1{
+	color: white;
+	text-align: center;
+}
+
+h2{
+	color: white;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+.kotak{
+	width: 1300px;
+	background:none;
+	/*meletakkan form ke tengah*/
+	margin: 250px auto;
+	padding: 0px 0px;
+}
+
+.kotak2{
+	width: 650px;
+	background:none;
+	/*meletakkan form ke tengah*/
+	margin: 10px auto;
+	padding: 40px 20px;
+}
+
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 50%;
+	margin-left: 160px;
+	margin-top: 40px;
+	padding: 10px;
+	font-size: 12pt;
+}
+
+.form_login2{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 50%;
+	margin-left: 160px;
+	margin-top: 10px;
+	padding: 10px;
+	font-size: 12pt;
+}
+
+.tombollogin{
+	cursor: pointer;
+	border: none;
+	background-color: #4169E1;
+	color: white;
+	margin-left: 160px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	width: 50%;
+	height: 50px;
+	font-size: 12pt;
+}
+
+.tombolikut{
+	cursor: pointer;
+	border: none;
+	border-radius: 100px;
+	width: 1200px;
+	height: 250px;
+	font-size: 70pt;
+	margin-left: 50px;
+	background-color: #00FFFF;
+	animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out{
+	0%{
+		transform: scale(1, 1);
+	}
+	50%{
+		transform: scale(1.1, 1.1);
+	}
+	100%{
+		transform: scale(1, 1);
+	}
+}

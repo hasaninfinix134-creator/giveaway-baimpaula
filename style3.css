@@ -1,0 +1,132 @@
+/* Pengaturan dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f2f5; /* Warna latar belakang halaman Facebook */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Penempatan Kontainer Login di tengah */
+.login-container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Gaya Logo "facebook" */
+.facebook-logo {
+    color: #1877f2; /* Warna biru khas Facebook */
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+/* Kotak Form Utama */
+.login-box {
+    background-color: #fff;
+    width: 380px;
+    padding: 20px 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.box-title {
+    font-size: 20px;
+    color: #1c1e21;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+/* Gaya Input */
+.input-group {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 14px 16px;
+    margin: 5px 0;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 17px;
+    outline: none; /* Hilangkan garis biru default */
+}
+
+.input-group input:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 0 1px #1877f2;
+}
+
+/* Gaya Khusus untuk Input dengan Error */
+.input-group.error input {
+    border-color: #fa383e; /* Warna merah untuk error */
+}
+
+.error-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fa383e;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #fcd4d6;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 2px solid #fa383e;
+    cursor: default;
+}
+
+.error-message {
+    color: #fa383e;
+    font-size: 12px;
+    text-align: left;
+    margin-top: -5px; /* Sesuaikan jarak dari input di atasnya */
+    margin-bottom: 10px;
+    padding: 0 2px;
+}
+
+/* Gaya Tombol Login */
+.tombollogin{
+	cursor: pointer;
+	border: none;
+    border-radius: 6px;
+	background-color: #1877f2;
+	color: white;
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	width: 100%;
+    padding: 10px 0;
+	font-size: 15pt;
+}
+.login-btn:hover {
+    background-color: #166fe5;
+}
+
+/* Gaya Link Lupa Password */
+.forgot-pass {
+    display: block;
+    margin-top: 15px;
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+    padding-bottom: 15px;
+    border-top: 1px solid #dadde1;
+    padding-top: 25px;
+}
+
+.forgot-pass:hover {
+    text-decoration: underline;
+}
